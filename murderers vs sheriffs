@@ -1,0 +1,117 @@
+--[[--[[Combat Gods text
+delayed a bit
+]]
+--[[ Combat Gods TypeWrite
+Might lag sometimes
+]]
+
+local ShowText = loadstring(game:HttpGet("https://pastebin.com/raw/CKEthumx"))()
+
+ShowText({
+    text = "YOUR_TEXT", -- the text
+    textColor = Color3.fromRGB(255, 0, 0), -- text color
+    strokeColor = Color3.new(0, 0, 0), -- outline color
+    font = Enum.Font.GothamBlack, -- text font
+    textSize = 20, -- text size
+    backgroundColor = Color3.new(0, 0, 0), -- color of background
+    frameSize = UDim2.new(0.13, 0, 0.06, 0), -- the background size
+    position = UDim2.new(0.5, 0, 0.8, 0), -- dont touch, touch if need
+    soundId = "rbxassetid://YOUR_SOUND_ID",
+    soundVolume = 1, -- volume of sound
+    duration = 0.8 -- duration of text (has fade in/fade out animation bla bla bla)
+})
+
+more stable saitama barrage remover
+workspace.Thrown.ChildAdded:Connect(function(d)
+    if d.Name == "Ring" then
+    game:GetService("RunService").Heartbeat:Connect(function()
+    d:Destroy()
+    end)
+    end
+    if d.Name == "Model" then
+    game:GetService("RunService").Heartbeat:Connect(function()
+    d:Destroy()
+    end)
+    end
+    end)
+    game.Players.LocalPlayer.Character.ChildAdded:Connect(function(d)
+    if d.Name == "BarrageBind" then
+    game:GetService("RunService").Heartbeat:Connect(function()
+    d:Destroy()
+    end)
+    end
+    end)
+    workspace.Terrain.Character.ChildAdded:Connect(function(d)
+    if d.Name == "SmokeBack" then
+    game:GetService("RunService").Heartbeat:Connect(function()
+    d:Destroy()
+    end)
+    end
+    end)
+SAITAMA BARRAGE REMOVER
+
+Sonic katana remover
+game.Players.LocalPlayer.Character:FindFirstChild("Sheathed"):Destroy()
+game.Players.LocalPlayer.Character:FindFirstChild("#NinjaKATANA"):Destroy()
+SONIC KATANA REMOVER
+
+metal bat bat remover
+game.Players.LocalPlayer.Character:FindFirstChild("#BATWEAPON"):Destroy() Gods text
+delayed a bit
+]]
+--[[ Combat Gods TypeWrite
+Might lag sometimes
+]]
+
+local ShowText = loadstring(game:HttpGet("https://pastebin.com/raw/CKEthumx"))()
+
+ShowText({
+    text = "YOUR_TEXT", -- the text
+    textColor = Color3.fromRGB(255, 0, 0), -- text color
+    strokeColor = Color3.new(0, 0, 0), -- outline color
+    font = Enum.Font.GothamBlack, -- text font
+    textSize = 20, -- text size
+    backgroundColor = Color3.new(0, 0, 0), -- color of background
+    frameSize = UDim2.new(0.13, 0, 0.06, 0), -- the background size
+    position = UDim2.new(0.5, 0, 0.8, 0), -- dont touch, touch if need
+    soundId = "rbxassetid://YOUR_SOUND_ID",
+    soundVolume = 1, -- volume of sound
+    duration = 0.8 -- duration of text (has fade in/fade out animation bla bla bla)
+})
+
+more stable saitama barrage remover
+workspace.Thrown.ChildAdded:Connect(function(d)
+    if d.Name == "Ring" then
+    game:GetService("RunService").Heartbeat:Connect(function()
+    d:Destroy()
+    end)
+    end
+    if d.Name == "Model" then
+    game:GetService("RunService").Heartbeat:Connect(function()
+    d:Destroy()
+    end)
+    end
+    end)
+    game.Players.LocalPlayer.Character.ChildAdded:Connect(function(d)
+    if d.Name == "BarrageBind" then
+    game:GetService("RunService").Heartbeat:Connect(function()
+    d:Destroy()
+    end)
+    end
+    end)
+    workspace.Terrain.Character.ChildAdded:Connect(function(d)
+    if d.Name == "SmokeBack" then
+    game:GetService("RunService").Heartbeat:Connect(function()
+    d:Destroy()
+    end)
+    end
+    end)
+SAITAMA BARRAGE REMOVER
+
+Sonic katana remover
+game.Players.LocalPlayer.Character:FindFirstChild("Sheathed"):Destroy()
+game.Players.LocalPlayer.Character:FindFirstChild("#NinjaKATANA"):Destroy()
+SONIC KATANA REMOVER
+
+metal bat bat remover
+game.Players.LocalPlayer.Character:FindFirstChild("#BATWEAPON"):Destroy()
